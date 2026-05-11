@@ -23,10 +23,7 @@ add_executable(${EXECUTABLE}
   ${SRC_FILES_RECURSE}
 
   main.c
-    led.c
-    button.c
     turbidity.c
-    system_timer.c
 )
 
 # 컴파일 타임 매크로
