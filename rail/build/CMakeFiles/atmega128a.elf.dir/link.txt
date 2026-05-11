@@ -1,0 +1,1 @@
+/opt/microchip/avr-gcc/bin/avr-gcc -mmcu=atmega128a -g -flto -fuse-linker-plugin -lm -Wl,-Map=/home/user15/workspaces/atmega128a/build/atmega128a.map,--cref -Wl,--gc-sections -Xlinker -print-memory-usage CMakeFiles/atmega128a.elf.dir/button.c.obj CMakeFiles/atmega128a.elf.dir/led.c.obj CMakeFiles/atmega128a.elf.dir/main.c.obj -o atmega128a.elf 
