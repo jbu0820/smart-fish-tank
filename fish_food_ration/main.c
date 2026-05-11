@@ -22,11 +22,10 @@ RTC_Time now;
 #define SET_RTC_MIN        11
 #define SET_RTC_SEC        0
 
-// DS1302 실제 시간이 아래 시간과 같으면 서보모터가 1회 동작합니다.
-// 테스트 시간: 16:10
-#define FEED_HOUR 16
-#define FEED_MIN  14
-
+// 최종 급식 시간: 오전 9시 정각, 오후 2시 정각
+#define FEED_HOUR_MORNING   9
+#define FEED_HOUR_AFTERNOON 14
+#define FEED_MIN            0
 
 // 시(hour), 분(min)을 함께 저장해서 같은 분 안에서 반복 동작하지 않도록 함
 uint8_t last_fed_hour = 255;
@@ -75,9 +74,9 @@ int main(void)
     {
         RTC_read_time(&now);
 
-        // DS1302에서 읽은 실제 시간이 지정한 동작 시간인지 확인
+        // DS1302에서 읽은 실제 시간이 오전 9시 정각 또는 오후 2시 정각인지 확인
         uint8_t is_feed_time =
-            (now.hour == FEED_HOUR
+            ((now.hour == FEED_HOUR_MORNING || now.hour == FEED_HOUR_AFTERNOON)
              && now.min == FEED_MIN);
 
         if (is_feed_time)
