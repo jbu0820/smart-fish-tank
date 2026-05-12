@@ -1,4 +1,4 @@
-fndef F_CPU
+#iffndef F_CPU
 #define F_CPU 16000000UL
 #endif
 
