@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/user15/workspaces/atmega128a/build",
+  "command": "/opt/microchip/avr-gcc/bin/avr-gcc -DF_CPU=16000000UL -I/home/user15/workspaces/atmega128a/src -I/home/user15/workspaces/atmega128a/src/ap -I/home/user15/workspaces/atmega128a/src/bsp -I/home/user15/workspaces/atmega128a/src/hw -I/home/user15/workspaces/atmega128a/src/common -I/home/user15/workspaces/atmega128a/src/common/hw/include -mmcu=atmega128a -g -std=gnu11 -fdata-sections -ffunction-sections -MMD -flto -fno-fat-lto-objects -Wall -Os -g3 -o CMakeFiles/atmega128a.elf.dir/button.c.obj -c /home/user15/workspaces/atmega128a/button.c",
+  "file": "/home/user15/workspaces/atmega128a/button.c",
+  "output": "CMakeFiles/atmega128a.elf.dir/button.c.obj"
+},
+{
+  "directory": "/home/user15/workspaces/atmega128a/build",
+  "command": "/opt/microchip/avr-gcc/bin/avr-gcc -DF_CPU=16000000UL -I/home/user15/workspaces/atmega128a/src -I/home/user15/workspaces/atmega128a/src/ap -I/home/user15/workspaces/atmega128a/src/bsp -I/home/user15/workspaces/atmega128a/src/hw -I/home/user15/workspaces/atmega128a/src/common -I/home/user15/workspaces/atmega128a/src/common/hw/include -mmcu=atmega128a -g -std=gnu11 -fdata-sections -ffunction-sections -MMD -flto -fno-fat-lto-objects -Wall -Os -g3 -o CMakeFiles/atmega128a.elf.dir/led.c.obj -c /home/user15/workspaces/atmega128a/led.c",
+  "file": "/home/user15/workspaces/atmega128a/led.c",
+  "output": "CMakeFiles/atmega128a.elf.dir/led.c.obj"
+},
+{
+  "directory": "/home/user15/workspaces/atmega128a/build",
+  "command": "/opt/microchip/avr-gcc/bin/avr-gcc -DF_CPU=16000000UL -I/home/user15/workspaces/atmega128a/src -I/home/user15/workspaces/atmega128a/src/ap -I/home/user15/workspaces/atmega128a/src/bsp -I/home/user15/workspaces/atmega128a/src/hw -I/home/user15/workspaces/atmega128a/src/common -I/home/user15/workspaces/atmega128a/src/common/hw/include -mmcu=atmega128a -g -std=gnu11 -fdata-sections -ffunction-sections -MMD -flto -fno-fat-lto-objects -Wall -Os -g3 -o CMakeFiles/atmega128a.elf.dir/main.c.obj -c /home/user15/workspaces/atmega128a/main.c",
+  "file": "/home/user15/workspaces/atmega128a/main.c",
+  "output": "CMakeFiles/atmega128a.elf.dir/main.c.obj"
+}
+]
