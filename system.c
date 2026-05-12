@@ -17,9 +17,9 @@
 
 #define SET_RTC_YEAR       26
 #define SET_RTC_MONTH      5
-#define SET_RTC_DATE       11
-#define SET_RTC_HOUR       16
-#define SET_RTC_MIN        11
+#define SET_RTC_DATE       12
+#define SET_RTC_HOUR       14
+#define SET_RTC_MIN        1
 #define SET_RTC_SEC        0
 
 static void disable_jtag(void)
