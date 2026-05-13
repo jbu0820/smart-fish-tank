@@ -1,0 +1,32 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/suyeon/workspaces/embedded/project/atmega128a/ds1302.c" "CMakeFiles/atmega128a.elf.dir/ds1302.c.obj" "gcc" "CMakeFiles/atmega128a.elf.dir/ds1302.c.obj.d"
+  "/Users/suyeon/workspaces/embedded/project/atmega128a/feeder.c" "CMakeFiles/atmega128a.elf.dir/feeder.c.obj" "gcc" "CMakeFiles/atmega128a.elf.dir/feeder.c.obj.d"
+  "/Users/suyeon/workspaces/embedded/project/atmega128a/i2c_lcd.c" "CMakeFiles/atmega128a.elf.dir/i2c_lcd.c.obj" "gcc" "CMakeFiles/atmega128a.elf.dir/i2c_lcd.c.obj.d"
+  "/Users/suyeon/workspaces/embedded/project/atmega128a/main.c" "CMakeFiles/atmega128a.elf.dir/main.c.obj" "gcc" "CMakeFiles/atmega128a.elf.dir/main.c.obj.d"
+  "/Users/suyeon/workspaces/embedded/project/atmega128a/main_for_test.c" "CMakeFiles/atmega128a.elf.dir/main_for_test.c.obj" "gcc" "CMakeFiles/atmega128a.elf.dir/main_for_test.c.obj.d"
+  "/Users/suyeon/workspaces/embedded/project/atmega128a/rail.c" "CMakeFiles/atmega128a.elf.dir/rail.c.obj" "gcc" "CMakeFiles/atmega128a.elf.dir/rail.c.obj.d"
+  "/Users/suyeon/workspaces/embedded/project/atmega128a/rgb_led.c" "CMakeFiles/atmega128a.elf.dir/rgb_led.c.obj" "gcc" "CMakeFiles/atmega128a.elf.dir/rgb_led.c.obj.d"
+  "/Users/suyeon/workspaces/embedded/project/atmega128a/servo.c" "CMakeFiles/atmega128a.elf.dir/servo.c.obj" "gcc" "CMakeFiles/atmega128a.elf.dir/servo.c.obj.d"
+  "/Users/suyeon/workspaces/embedded/project/atmega128a/system.c" "CMakeFiles/atmega128a.elf.dir/system.c.obj" "gcc" "CMakeFiles/atmega128a.elf.dir/system.c.obj.d"
+  "/Users/suyeon/workspaces/embedded/project/atmega128a/turbidity.c" "CMakeFiles/atmega128a.elf.dir/turbidity.c.obj" "gcc" "CMakeFiles/atmega128a.elf.dir/turbidity.c.obj.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
