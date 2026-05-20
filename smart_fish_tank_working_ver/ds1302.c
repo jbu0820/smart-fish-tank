@@ -6,13 +6,13 @@
 #include <util/delay.h>
 #include "ds1302.h"
 
-#define DS1302_PORT PORTB
-#define DS1302_DDR  DDRB
-#define DS1302_PIN  PINB
+#define DS1302_PORT PORTA
+#define DS1302_DDR  DDRA
+#define DS1302_PIN  PINA
 
-#define DS1302_CLK  PB0
-#define DS1302_IO   PB1
-#define DS1302_RST  PB2
+#define DS1302_CLK  PA0
+#define DS1302_IO   PA1
+#define DS1302_RST  PA2
 
 static uint8_t dec_to_bcd(uint8_t dec)
 {

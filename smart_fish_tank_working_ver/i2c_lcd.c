@@ -42,15 +42,26 @@ void LCD_SendData(unsigned char data) {
 }
 
 void LCD_Init(void) {
-    _delay_ms(50);
-    LCD_SendCommand(0x33);
-    LCD_SendCommand(0x32);
-    LCD_SendCommand(0x28);
-    LCD_SendCommand(0x0C);
-    LCD_SendCommand(0x06);
-    LCD_Clear();
-}
+    _delay_ms(100);           /* 전원 안정화 — 50ms → 100ms */
 
+    LCD_SendCommand(0x33);
+    _delay_ms(5);             /* ← 추가 */
+
+    LCD_SendCommand(0x32);
+    _delay_ms(5);             /* ← 추가 */
+
+    LCD_SendCommand(0x28);
+    _delay_ms(2);             /* ← 추가 */
+
+    LCD_SendCommand(0x0C);
+    _delay_ms(2);             /* ← 추가 */
+
+    LCD_SendCommand(0x06);
+    _delay_ms(2);             /* ← 추가 */
+
+    LCD_Clear();
+    _delay_ms(5);             /* ← 추가 */
+}
 void LCD_Clear(void) {
     LCD_SendCommand(0x01);
     _delay_ms(2);

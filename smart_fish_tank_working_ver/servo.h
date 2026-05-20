@@ -4,7 +4,8 @@
 #include <stdint.h>
 
 #define SERVO_MIN 2000
-#define SERVO_MAX 5000
+#define SERVO_MID 3000
+#define SERVO_MAX 4000
 
 void servo_init(void);
 void servo_set(uint16_t value);

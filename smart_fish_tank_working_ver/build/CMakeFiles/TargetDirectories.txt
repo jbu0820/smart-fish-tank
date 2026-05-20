@@ -1,3 +1,0 @@
-/Users/suyeon/workspaces/embedded/project/atmega128a/build/CMakeFiles/atmega128a.elf.dir
-/Users/suyeon/workspaces/embedded/project/atmega128a/build/CMakeFiles/edit_cache.dir
-/Users/suyeon/workspaces/embedded/project/atmega128a/build/CMakeFiles/rebuild_cache.dir
